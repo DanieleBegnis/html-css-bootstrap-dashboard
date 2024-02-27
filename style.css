@@ -19,6 +19,13 @@ main {
 .ms-bg-gray {
     background-color: #e5e5e5;
 }
+.ms-bg-blue {
+    background-color: #1b72e8;
+}
+.ms-container-big {
+    display: flex;
+    height: calc(100vh - 70px);
+}
 .ms-sidebar {
     width: 70px;
     display: flex;
