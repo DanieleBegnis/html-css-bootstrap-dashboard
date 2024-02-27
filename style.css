@@ -1,0 +1,41 @@
+header {
+    height: 70px;
+    background-color: #ffffff;
+}
+
+main {
+    height: calc(100vh - 70px);
+}
+.ms-logo-small {
+    max-width: 40px;
+
+}
+.ms-yellow {
+    color: #ff8f00;
+}
+.ms-lightgrey {
+    color: #ffffff;
+}
+.ms-bg-gray {
+    background-color: #e5e5e5;
+}
+.ms-sidebar {
+    width: 70px;
+    display: flex;
+    flex-direction: column;
+    background-image: url(img/sidebar-bg.png);
+    background-size: cover;
+    background-color: #051e34;
+    justify-content: space-between;
+    flex-shrink: 0;
+    height: calc(100vh - 70px);
+}
+.ms-sidebar ul {
+    list-style: none;
+}
+
+@media screen and (min-width: 992px) {
+    .ms-sidebar {
+        width: 140px;
+    }
+}   
