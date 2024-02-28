@@ -74,9 +74,18 @@
                 <div class="row ms-bg-blue ms-lightgrey">
                     <div class="d-flex col-12 col-md-2 align-items-center my-4 order-md-3">
                        <span>Nuovo Studente</span>
-                       <button type="button" class="btn active mx-4" data-bs-toggle="button" aria-pressed="true">
+                        <button class="btn active mx-4" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
                             <i class="fa-solid fa-plus"></i>
-                        </button> 
+                        </button>
+                        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                            <div class="offcanvas-header">
+                                <h5 class="offcanvas-title" id="offcanvasRightLabel">Offcanvas right</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                            </div>
+                            <div class="offcanvas-body">
+                                ...
+                            </div>
+                        </div>
                     </div>
                     <div class="col-12 col-md-6 my-4 order-md-1">
                         <div>
