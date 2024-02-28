@@ -41,7 +41,7 @@ main {
     list-style: none;
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 576px) {
     .ms-sidebar {
         width: 140px;
     }
