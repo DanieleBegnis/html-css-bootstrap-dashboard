@@ -8,7 +8,10 @@ main {
 }
 .ms-logo-small {
     max-width: 40px;
-
+}
+.ms-logo-smaller {
+    max-width: 26px;
+    background-color: transparent;
 }
 .ms-yellow {
     color: #ff8f00;
